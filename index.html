@@ -5,17 +5,34 @@
    <title>Home</title>
    <style>
     h1 {text-align: center; font-family:garamond, georgia, serif;}
+    ul.navbar {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        background-color: #474747;
+        overflow: hidden;
+        position: sticky;
+        top: 0;}
+    li a.navbar {
+        font-family:garamond, georgia, serif;
+        display: block;
+        color: #ffffff;
+        padding: 14px 18px;
+        text-decoration:none;
+        float: left;
+        border-right:1px solid #ababab;}
+    li a.navbar:hover:not(.active) {background-color: #303030;}
+    li.navbar:last-child {border-right: none;}
+    li a.active {background-color: #6f117d; }
    </style>
  </head> 
-
 <body>
- <div>
-<p style="font-family:garamond, georgia, serif; font-size: 20px; color:#050505; position: relative; left: 20px;">
-<a style="text-decoration: none; color:#050505" href="./">Call for Papers</a> &nbsp &nbsp &nbsp 
-<a style="text-decoration: none; color:#050505" href="">Local Information</a> &nbsp &nbsp &nbsp
-<a style="text-decoration: none; color:#050505" href="./">Program</a>
-</p>
- </div>
+ <ul class="navbar">
+    <li><a class="navbar active" href="./index.html">Call for Papers</a></li>
+    <li><a class="navbar" href="./">Home</a></li>
+    <li><a class="navbar" href="./">Local Information</a></li>
+    <li><a class="navbar" href="./">Program</a></li>
+  </ul>
  <div>
  <h1>
 <b>Formal Approaches to Slavic Linguistics 34</b>
