@@ -25,3 +25,6 @@ li.navbar:last-child {border-right: none;}
 li a.active {background-color: #6f117d; }
 p{font-family:garamond, georgia, serif;}
 body{margin: 10px 200px;}
+div.mycontainer {display: flex;}
+div.mycontainer div {width:33%;}
+  
