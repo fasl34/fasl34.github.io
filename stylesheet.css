@@ -29,7 +29,8 @@ div.mycontainer div {width:33%;}
 footer{font-family:garamond, georgia, serif;
        font-size: large;
        background-color: #b31b1b; 
-       padding: 10px; 
+       padding: 15px; 
        text-align: center; 
-       color: #ffffff;}
+       color: #ffffff;
+       margin-top: 10px;}
     
