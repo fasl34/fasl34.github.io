@@ -4,7 +4,7 @@ h1 {text-align: center;
 h2 {font-family:garamond, georgia, serif;}
 h3 {font-family:garamond, georgia, serif;}
 ul {font-family:garamond, georgia, serif;}
-ul.navbar {list-style-type: none;
+/*ul.navbar {list-style-type: none; 
            margin: 0;
            padding: 0;
            background-color: #b31b1b;
@@ -20,9 +20,10 @@ li a.navbar {font-family:garamond, georgia, serif;
              border-right:1px solid #ababab;}
 li a.navbar:hover:not(.active) {background-color: #DF1E12;}
 li.navbar:last-child {border-right: none;}
-li a.active {background-color: #222222;}
-p{font-family:garamond, georgia, serif;}
-body{margin: 10px 200px;}
+li a.active {background-color: #222222;} */ 
+p{font-family:garamond, georgia, serif;
+  font-size: large;}
+body{margin: 10px 100px 10px 100px;}
 div.gallery {border: 0px solid #ccc;}
 div.gallery:hover {border: 0px solid #777;}
 div.gallery img {width: 100%;
@@ -48,4 +49,25 @@ footer{font-family:garamond, georgia, serif;
        text-align: center; 
        color: #ffffff;
        margin-top: 10px;}
-    
+.sidenav {height: 100%;
+          width: 200px;
+          position: fixed;
+          z-index: 1;
+          top: 0;
+          left: 0;
+          background-color: #b31b1b;
+          overflow-x: hidden;
+          padding-top: 20px;}
+.sidenav a {padding: 12px 16px 12px 32px;
+            text-decoration: none;
+            font-size: 25px;
+            color: #ffffff;
+            display: block;
+            font-family:garamond, georgia, serif;}
+.sidenav a:hover {color: #000000;}
+.main {margin-left: 160px; /* Same as the width of the sidenav */
+       font-size: 28px; /* Increased text to enable scrolling */
+       padding: 0px 10px;}
+@media screen and (max-height: 450px) {
+        .sidenav {padding-top: 15px;}
+        .sidenav a {font-size: 18px;}}
