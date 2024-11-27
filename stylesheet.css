@@ -71,3 +71,18 @@ footer{font-family:garamond, georgia, serif;
 @media screen and (max-height: 450px) {
         .sidenav {padding-top: 15px;}
         .sidenav a {font-size: 18px;}}
+/*.center {margin: 0;
+         position: absolute;
+         left: 50%;
+         -ms-transform: translate(-50%, -50%);
+         transform: translate(-50%, -50%);}*/
+.button {border: none;
+         color: #ffffff;
+         padding: 24px 48px;
+         text-align: center;
+         text-decoration: none;
+         display: inline-block;
+         font-size: 20px;
+         margin: 4px 2px;
+         cursor: pointer;
+         font-family:garamond, georgia, serif;}
