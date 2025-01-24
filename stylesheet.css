@@ -86,3 +86,12 @@ footer{font-family:garamond, georgia, serif;
          margin: 4px 2px;
          cursor: pointer;
          font-family:garamond, georgia, serif;}
+table {font-family: garamond, georgia, serif;
+        border-collapse: collapse;
+        width: 50%;
+        height: 75px;
+        font-size: large;}
+td, th {border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;}
+tr:nth-child(even) {background-color: #dddddd;}
