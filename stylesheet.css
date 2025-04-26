@@ -93,7 +93,14 @@ table {font-family: garamond, georgia, serif;
         width: 50%;
         height: 75px;
         font-size: large;}
+#program {font-family: garamond, georgia, serif;
+        border-collapse: collapse;
+        width: 65%;
+        height: 75px;
+        font-size: large;}
 td, th {border: 1px solid #dddddd;
         text-align: left;
         padding: 8px;}
 tr:nth-child(even) {background-color: #dddddd;}
+.center {margin-left: auto;
+        margin-right: auto;}
